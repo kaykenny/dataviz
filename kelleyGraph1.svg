@@ -104,7 +104,7 @@ stroke: black
     stroke="#ffca94" fill="#ffca94" stroke-width="2" fill-opacity=".5"/>
 
 <!--Abby Preferred polygon-->
-  <polygon points="220 220 195 305 335 335 284 218"
+  <polygon points="194 196 198 304 302 302 298 202"
       stroke="#a4df92" fill="#a4df92" stroke-width="2" fill-opacity=".5"/>
 
 <!--Chris Preferred polygon-->

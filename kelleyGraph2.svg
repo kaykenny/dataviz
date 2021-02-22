@@ -103,11 +103,11 @@ stroke: black
   <rect id="quad" x="50" y="250" height="200" width="200"/>
   <rect id="quad" x="250" y="250" height="200" width="200"/>
 
-<!--Lindsey Now polygon-->
+<!--Aver Now polygon-->
   <polygon points="206 206 193 306 324 324 283 218"
     stroke="#990000" fill="#990000" stroke-width="2" fill-opacity=".5"/>
 
-<!--Abby Now polygon-->
+<!--Aver Prefer polygon-->
   <polygon points="185 186 201 298 296 296 297 202"
       stroke="#FFFDD0" fill="#FFFDD0" stroke-width="2" fill-opacity=".5"/>
 </g>
