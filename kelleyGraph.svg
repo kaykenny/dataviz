@@ -91,6 +91,7 @@ stroke: black
   <polygon points="185 185 195 305 313 312 265 235"
     stroke="gray" fill="transparent" stroke-width="4"/>
 
+<<<<<<< Updated upstream
 <!--Chris Now polygon-->
 <!--<polygon points="185 185 265 236 190 310 "
   stroke="gray" fill="transparent" stroke-width="4"/> -->
@@ -98,4 +99,19 @@ stroke: black
   <polygon points="220 220 185 315 300 300 285 215"
     stroke="green" fill="transparent" stroke-width="4"/>
 
+=======
+
+<!--Kaylin Now polygon-->
+    <!--<polygon points="185 185 265 236 190 310 "
+      stroke="gray" fill="transparent" stroke-width="4"/> -->
+
+      <polygon points="205 205 205 294 320 320 270 228"
+        stroke="blue" fill="transparent" stroke-width="4"/>
+
+
+        <!--Abby Now polygon-->
+    <polygon points="220 220 195 305 335 335 284 218"
+      stroke="purple" fill="transparent" stroke-width="4"/>
+
+>>>>>>> Stashed changes
 </svg>
