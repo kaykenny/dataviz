@@ -1,10 +1,4 @@
-­­­<html>
-<title>W3.CSS</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<body>
-
-<svg height="1000" width="1000">
+­­­<svg height="1000" width="1000">
 
 <style>
 #quad{
@@ -13,7 +7,13 @@ stroke: black
 }
 </style>
 
+<g id="title">
+  <text x="250" y="25" text-anchor="middle" font-size="x-large" fill="black">Organizational Culture</text>
+  <text x="250" y="50" text-anchor="middle" font-size="x-large" fill="black">Assessment Instrument</text>
+  <text x="250" y="75" text-anchor="middle" font-size="medium" fill="black">(Individual Preferred State Perception- Kelley School of Business)</text>
+</g>
 
+<g id="graph" transform="translate(0,125)">
   <defs>
     <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
       <polygon points="0 0, 10 3.5, 0 7" />
@@ -29,9 +29,6 @@ stroke: black
 <text x="250" y="495" font-size="large" text-anchor="middle" fill="black">Stability and Control</text>
 <text font-size="large" text-anchor="middle" transform="translate(18,250) rotate(270)" fill="black">Internal Focus and Integration</text>
 <text font-size="large" text-anchor="middle" transform="translate(482,250) rotate(90)" fill="black">External Focus and Differentiation</text>
-<text x="250" y="650" text-anchor="middle" font-size="x-large" fill="black">Organizational Culture</text>
-<text x="250" y="675" text-anchor="middle" font-size="x-large" fill="black">Assessment Instrument</text>
-<text x="250" y="700" text-anchor="middle" font-size="large" fill="black">(Individual Preferred State Perception)</text>
 
 
 <!-- The Box Graph -->
@@ -54,7 +51,7 @@ stroke: black
 <line x1="90" y1="90" x2="75" y2="90" stroke="black" stroke-width="2" stroke-linecap="round"/>
 <text x="55" y="95" fill="black">80</text>
 <line x1="70" y1="70" x2="55" y2="70" stroke="black" stroke-width="2" stroke-linecap="round"/>
-<text x="45" y="45" fill="black">THE CLAN</text>
+<text x="150" y="45" text-anchor="middle" fill="black">THE CLAN</text>
 
 <!-- Q1 B -->
 <line x1="270" y1="230" x2="285" y2="230" stroke="black" stroke-width="2" stroke-linecap="round"/>
@@ -66,7 +63,7 @@ stroke: black
 <line x1="390" y1="110" x2="405" y2="110" stroke="black" stroke-width="2" stroke-linecap="round"/>
 <line x1="410" y1="90" x2="425" y2="90" stroke="black" stroke-width="2" stroke-linecap="round"/>
 <line x1="430" y1="70" x2="445" y2="70" stroke="black" stroke-width="2" stroke-linecap="round"/>
-<text x="325" y="45" fill="black">THE ADHOCRACY</text>
+<text x="355" y="45" text-anchor="middle" fill="black">THE ADHOCRACY</text>
 
 <!-- Q3 C-->
 <line x1="230" y1="270" x2="215" y2="270" stroke="black" stroke-width="2" stroke-linecap="round"/>
@@ -78,7 +75,7 @@ stroke: black
 <line x1="110" y1="390" x2="95" y2="390" stroke="black" stroke-width="2" stroke-linecap="round"/>
 <line x1="90" y1="410" x2="75" y2="410" stroke="black" stroke-width="2" stroke-linecap="round"/>
 <line x1="70" y1="430" x2="55" y2="430" stroke="black" stroke-width="2" stroke-linecap="round"/>
-<text x="45" y="465" fill="black">THE HIERARCHY</text>
+<text x="150" y="465" text-anchor="middle" fill="black">THE HIERARCHY</text>
 
 <!-- Q4 D -->
 <line x1="270" y1="270" x2="285" y2="270" stroke="black" stroke-width="2" stroke-linecap="round"/>
@@ -94,7 +91,7 @@ stroke: black
 <line x1="410" y1="410" x2="425" y2="410" stroke="black" stroke-width="2" stroke-linecap="round"/>
 <text x="430" y="415" fill="black">80</text>
 <line x1="430" y1="430" x2="445" y2="430" stroke="black" stroke-width="2" stroke-linecap="round"/>
-<text x="360" y="465" fill="black">THE MARKET</text>
+<text x="350" y="465" text-anchor="middle" fill="black">THE MARKET</text>
 <!-- <line x1="450" y1="450" x2="465" y2="450" stroke="black" stroke-width="2" stroke-linecap="round"/> -->
 
   <rect id="quad" x="50" y="50" height="200" width="200"/>
@@ -102,15 +99,15 @@ stroke: black
   <rect id="quad" x="50" y="250" height="200" width="200"/>
   <rect id="quad" x="250" y="250" height="200" width="200"/>
 
-<!--Lindsey Now polygon-->
-  <polygon points="185 185 195 305 313 312 265 235"
+<!--Lindsey Preferred polygon-->
+  <polygon points="172 172 185 315 280 280 312 188"
     stroke="#ffca94" fill="#ffca94" stroke-width="2" fill-opacity=".5"/>
 
-<!--Abby Now polygon-->
+<!--Abby Preferred polygon-->
   <polygon points="220 220 195 305 335 335 284 218"
-      stroke="#a4df92" fill="#a4df92" stroke-width="2" fill-opacity=".53"/>
+      stroke="#a4df92" fill="#a4df92" stroke-width="2" fill-opacity=".5"/>
 
-<!--Chris Now polygon-->
+<!--Chris Preferred polygon-->
   <polygon points="210 210 215 287 315 315 315 185"
     stroke="#90b1df" fill="	#90b1df" stroke-width="2" fill-opacity=".5"/>
 
@@ -118,7 +115,9 @@ stroke: black
   <polygon points="170 170 210 292 282 282 300 197"
       stroke="#dfa4dc" fill="#dfa4dc" stroke-width="2" fill-opacity=".5"/>
 
+</g>
 
+<g id="key" transform="translate(0,150)">
 <!--Key-->
   <rect id="key" x="300" y="500" height="20" width="20" fill="#ffca94"/>
   <rect id="key" x="300" y="530" height="20" width="20" fill="#90b1df"/>
@@ -131,9 +130,6 @@ stroke: black
   <text x="330" y="605" fill="black"> = Abby Thomas</text>
 <!--Key-->
 
+</g>
 
 </svg>
-
-
-</body>
-</html>
