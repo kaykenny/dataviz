@@ -1,3 +1,9 @@
+­­­<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
 <svg height="1000" width="1000">
 
 <style>
@@ -7,7 +13,6 @@ stroke: black
 }
 </style>
 
-<text x="0" y="15" fill="red">I love SVG!</text>
 
   <defs>
     <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
@@ -18,66 +23,77 @@ stroke: black
   <line x1="450" y1="250" x2="50" y2="250" stroke="#000" stroke-width="3" marker-end="url(#arrowhead)" />
   <line x1="250" y1="450" x2="250" y2="50" stroke="#000" stroke-width="3" marker-end="url(#arrowhead)" />
   <line x1="250" y1="50" x2="250" y2="450" stroke="#000" stroke-width="3" marker-end="url(#arrowhead)" />
+
+<!-- OUTSIDE TEXT -->
+<text x="250" y="15" font-size="large" text-anchor="middle" fill="black">Flexibility and Discretion</text>
+<text x="250" y="495" font-size="large" text-anchor="middle" fill="black">Stability and Control</text>
+<text font-size="large" text-anchor="middle" transform="translate(18,250) rotate(270)" fill="black">Internal Focus and Integration</text>
+<text font-size="large" text-anchor="middle" transform="translate(482,250) rotate(90)" fill="black">External Focus and Differentiation</text>
+
+
+
 <!-- The Box Graph -->
-<line x1="250" y1="250" x2="450" y2="50" stroke="red" stroke-width="2" stroke-linecap="round"/>
-<line x1="250" y1="250" x2="50" y2="50" stroke="red" stroke-width="2" stroke-linecap="round"/>
-<line x1="250" y1="250" x2="450" y2="450" stroke="red" stroke-width="2" stroke-linecap="round"/>
-<line x1="250" y1="250" x2="50" y2="450" stroke="red" stroke-width="2" stroke-linecap="round"/>
+<line x1="250" y1="250" x2="450" y2="50" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<line x1="250" y1="250" x2="50" y2="50" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<line x1="250" y1="250" x2="450" y2="450" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<line x1="250" y1="250" x2="50" y2="450" stroke="black" stroke-width="2" stroke-linecap="round"/>
 
-<!-- Q1 -->
-<line x1="270" y1="230" x2="285" y2="230" stroke="red" stroke-width="2" stroke-linecap="round"/>
-<line x1="290" y1="210" x2="305" y2="210" stroke="red" stroke-width="2" stroke-linecap="round"/>
-<line x1="310" y1="190" x2="325" y2="190" stroke="red" stroke-width="2" stroke-linecap="round"/>
-<line x1="330" y1="170" x2="345" y2="170" stroke="red" stroke-width="2" stroke-linecap="round"/>
-<line x1="350" y1="150" x2="365" y2="150" stroke="red" stroke-width="2" stroke-linecap="round"/>
-<line x1="370" y1="130" x2="385" y2="130" stroke="red" stroke-width="2" stroke-linecap="round"/>
-<line x1="390" y1="110" x2="405" y2="110" stroke="red" stroke-width="2" stroke-linecap="round"/>
-<line x1="410" y1="90" x2="425" y2="90" stroke="red" stroke-width="2" stroke-linecap="round"/>
-<line x1="430" y1="70" x2="445" y2="70" stroke="red" stroke-width="2" stroke-linecap="round"/>
+<!-- Q2 A -->
+<line x1="230" y1="230" x2="215" y2="230" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<line x1="210" y1="210" x2="195" y2="210" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<text x="175" y="215" fill="black">20</text>
+<line x1="190" y1="190" x2="175" y2="190" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<line x1="170" y1="170" x2="155" y2="170" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<text x="135" y="175" fill="black">40</text>
+<line x1="150" y1="150" x2="135" y2="150" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<line x1="130" y1="130" x2="115" y2="130" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<text x="95" y="135" fill="black">60</text>
+<line x1="110" y1="110" x2="95" y2="110" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<line x1="90" y1="90" x2="75" y2="90" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<text x="55" y="95" fill="black">80</text>
+<line x1="70" y1="70" x2="55" y2="70" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<text x="45" y="45" fill="black">THE CLAN</text>
 
+<!-- Q1 B -->
+<line x1="270" y1="230" x2="285" y2="230" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<line x1="290" y1="210" x2="305" y2="210" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<line x1="310" y1="190" x2="325" y2="190" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<line x1="330" y1="170" x2="345" y2="170" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<line x1="350" y1="150" x2="365" y2="150" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<line x1="370" y1="130" x2="385" y2="130" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<line x1="390" y1="110" x2="405" y2="110" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<line x1="410" y1="90" x2="425" y2="90" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<line x1="430" y1="70" x2="445" y2="70" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<text x="325" y="45" fill="black">THE ADHOCRACY</text>
 
-<!-- Q2 -->
-<line x1="230" y1="230" x2="215" y2="230" stroke="red" stroke-width="2" stroke-linecap="round"/>
-<line x1="210" y1="210" x2="195" y2="210" stroke="red" stroke-width="2" stroke-linecap="round"/>
-<text x="175" y="215" fill="red">20</text>
-<line x1="190" y1="190" x2="175" y2="190" stroke="red" stroke-width="2" stroke-linecap="round"/>
-<line x1="170" y1="170" x2="155" y2="170" stroke="red" stroke-width="2" stroke-linecap="round"/>
-<text x="135" y="175" fill="red">40</text>
-<line x1="150" y1="150" x2="135" y2="150" stroke="red" stroke-width="2" stroke-linecap="round"/>
-<line x1="130" y1="130" x2="115" y2="130" stroke="red" stroke-width="2" stroke-linecap="round"/>
-<text x="95" y="135" fill="red">60</text>
-<line x1="110" y1="110" x2="95" y2="110" stroke="red" stroke-width="2" stroke-linecap="round"/>
-<line x1="90" y1="90" x2="75" y2="90" stroke="red" stroke-width="2" stroke-linecap="round"/>
-<text x="55" y="95" fill="red">80</text>
-<line x1="70" y1="70" x2="55" y2="70" stroke="red" stroke-width="2" stroke-linecap="round"/>
+<!-- Q3 C-->
+<line x1="230" y1="270" x2="215" y2="270" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<line x1="210" y1="290" x2="195" y2="290" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<line x1="190" y1="310" x2="175" y2="310" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<line x1="170" y1="330" x2="155" y2="330" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<line x1="150" y1="350" x2="135" y2="350" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<line x1="130" y1="370" x2="115" y2="370" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<line x1="110" y1="390" x2="95" y2="390" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<line x1="90" y1="410" x2="75" y2="410" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<line x1="70" y1="430" x2="55" y2="430" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<text x="45" y="465" fill="black">THE HIERARCHY</text>
 
-<!-- Q4 -->
-<line x1="270" y1="270" x2="285" y2="270" stroke="red" stroke-width="2" stroke-linecap="round"/>
-<line x1="290" y1="290" x2="305" y2="290" stroke="red" stroke-width="2" stroke-linecap="round"/>
-<text x="310" y="295" fill="red">20</text>
-<line x1="310" y1="310" x2="325" y2="310" stroke="red" stroke-width="2" stroke-linecap="round"/>
-<line x1="330" y1="330" x2="345" y2="330" stroke="red" stroke-width="2" stroke-linecap="round"/>
-<text x="350" y="335" fill="red">40</text>
-<line x1="350" y1="350" x2="365" y2="350" stroke="red" stroke-width="2" stroke-linecap="round"/>
-<line x1="370" y1="370" x2="385" y2="370" stroke="red" stroke-width="2" stroke-linecap="round"/>
-<text x="390" y="375" fill="red">60</text>
-<line x1="390" y1="390" x2="405" y2="390" stroke="red" stroke-width="2" stroke-linecap="round"/>
-<line x1="410" y1="410" x2="425" y2="410" stroke="red" stroke-width="2" stroke-linecap="round"/>
-<text x="430" y="415" fill="red">80</text>
-<line x1="430" y1="430" x2="445" y2="430" stroke="red" stroke-width="2" stroke-linecap="round"/>
-<!-- <line x1="450" y1="450" x2="465" y2="450" stroke="red" stroke-width="2" stroke-linecap="round"/> -->
-
-
-<!-- Q3 -->
-<line x1="230" y1="270" x2="215" y2="270" stroke="red" stroke-width="2" stroke-linecap="round"/>
-<line x1="210" y1="290" x2="195" y2="290" stroke="red" stroke-width="2" stroke-linecap="round"/>
-<line x1="190" y1="310" x2="175" y2="310" stroke="red" stroke-width="2" stroke-linecap="round"/>
-<line x1="170" y1="330" x2="155" y2="330" stroke="red" stroke-width="2" stroke-linecap="round"/>
-<line x1="150" y1="350" x2="135" y2="350" stroke="red" stroke-width="2" stroke-linecap="round"/>
-<line x1="130" y1="370" x2="115" y2="370" stroke="red" stroke-width="2" stroke-linecap="round"/>
-<line x1="110" y1="390" x2="95" y2="390" stroke="red" stroke-width="2" stroke-linecap="round"/>
-<line x1="90" y1="410" x2="75" y2="410" stroke="red" stroke-width="2" stroke-linecap="round"/>
-<line x1="70" y1="430" x2="55" y2="430" stroke="red" stroke-width="2" stroke-linecap="round"/>
+<!-- Q4 D -->
+<line x1="270" y1="270" x2="285" y2="270" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<line x1="290" y1="290" x2="305" y2="290" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<text x="310" y="295" fill="black">20</text>
+<line x1="310" y1="310" x2="325" y2="310" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<line x1="330" y1="330" x2="345" y2="330" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<text x="350" y="335" fill="black">40</text>
+<line x1="350" y1="350" x2="365" y2="350" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<line x1="370" y1="370" x2="385" y2="370" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<text x="390" y="375" fill="black">60</text>
+<line x1="390" y1="390" x2="405" y2="390" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<line x1="410" y1="410" x2="425" y2="410" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<text x="430" y="415" fill="black">80</text>
+<line x1="430" y1="430" x2="445" y2="430" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<text x="360" y="465" fill="black">THE MARKET</text>
+<!-- <line x1="450" y1="450" x2="465" y2="450" stroke="black" stroke-width="2" stroke-linecap="round"/> -->
 
   <rect id="quad" x="50" y="50" height="200" width="200"/>
   <rect id="quad" x="250" y="50" height="200" width="200"/>
@@ -85,33 +101,37 @@ stroke: black
   <rect id="quad" x="250" y="250" height="200" width="200"/>
 
 <!--Lindsey Now polygon-->
-<!--<polygon points="185 185 265 236 190 310 "
-  stroke="gray" fill="transparent" stroke-width="4"/> -->
-
   <polygon points="185 185 195 305 313 312 265 235"
-    stroke="gray" fill="transparent" stroke-width="4"/>
+    stroke="#ffca94" fill="#ffca94" stroke-width="2" fill-opacity=".5"/>
 
-<<<<<<< Updated upstream
+<!--Abby Now polygon-->
+  <polygon points="220 220 195 305 335 335 284 218"
+      stroke="#a4df92" fill="#a4df92" stroke-width="2" fill-opacity=".53"/>
+
 <!--Chris Now polygon-->
-<!--<polygon points="185 185 265 236 190 310 "
-  stroke="gray" fill="transparent" stroke-width="4"/> -->
-
   <polygon points="220 220 185 315 300 300 285 215"
-    stroke="green" fill="transparent" stroke-width="4"/>
-
-=======
+    stroke="#90b1df" fill="	#90b1df" stroke-width="2" fill-opacity=".5"/>
 
 <!--Kaylin Now polygon-->
-    <!--<polygon points="185 185 265 236 190 310 "
-      stroke="gray" fill="transparent" stroke-width="4"/> -->
-
-      <polygon points="205 205 205 294 320 320 270 228"
-        stroke="blue" fill="transparent" stroke-width="4"/>
+  <polygon points="205 205 205 294 320 320 270 228"
+      stroke="#dfa4dc" fill="#dfa4dc" stroke-width="2" fill-opacity=".5"/>
 
 
-        <!--Abby Now polygon-->
-    <polygon points="220 220 195 305 335 335 284 218"
-      stroke="purple" fill="transparent" stroke-width="4"/>
+<!--Key-->
+  <rect id="key" x="300" y="500" height="20" width="20" fill="#ffca94"/>
+  <rect id="key" x="300" y="530" height="20" width="20" fill="#90b1df"/>
+  <rect id="key" x="300" y="560" height="20" width="20" fill="#dfa4dc"/>
+  <rect id="key" x="300" y="590" height="20" width="20" fill="#a4df92"/>
 
->>>>>>> Stashed changes
+  <text x="330" y="515" fill="black"> = Lindsey Hume</text>
+  <text x="330" y="545" fill="black"> = Chris Stanko</text>
+  <text x="330" y="575" fill="black"> = Kaylin Kenny</text>
+  <text x="330" y="605" fill="black"> = Abby Thomas</text>
+<!--Key-->
+
+
 </svg>
+
+
+</body>
+</html>
