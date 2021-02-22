@@ -84,4 +84,11 @@ stroke: black
   <rect id="quad" x="50" y="250" height="200" width="200"/>
   <rect id="quad" x="250" y="250" height="200" width="200"/>
 
+<!--Lindsey Now polygon-->
+<!--<polygon points="185 185 265 236 190 310 "
+  stroke="gray" fill="transparent" stroke-width="4"/> -->
+
+  <polygon points="185 185 195 305 313 312 265 235"
+    stroke="gray" fill="transparent" stroke-width="4"/>
+
 </svg>
