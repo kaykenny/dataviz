@@ -32,7 +32,7 @@ stroke: black
 
 <text x="250" y="625" text-anchor="middle" font-size="x-large" fill="black">Organizational Culture</text>
 <text x="250" y="650" text-anchor="middle" font-size="x-large" fill="black">Assessment Instrument</text>
-
+<text x="250" y="700" text-anchor="middle" font-size="large" fill="black">(Group Current and Preferred State Perceptions)</text>
 <!-- The Box Graph -->
 <line x1="250" y1="250" x2="450" y2="50" stroke="black" stroke-width="2" stroke-linecap="round"/>
 <line x1="250" y1="250" x2="50" y2="50" stroke="black" stroke-width="2" stroke-linecap="round"/>
