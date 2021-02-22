@@ -112,8 +112,8 @@ stroke: black
   <polygon points="220 220 185 315 300 300 285 215"
     stroke="#90b1df" fill="	#90b1df" stroke-width="2" fill-opacity=".5"/>
 
-<!--Kaylin Now polygon-->
-  <polygon points="205 205 205 294 320 320 270 228"
+<!--Kaylin Preferred polygon-->
+  <polygon points="170 170 210 292 282 282 300 197"
       stroke="#dfa4dc" fill="#dfa4dc" stroke-width="2" fill-opacity=".5"/>
 
 
