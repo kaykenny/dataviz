@@ -30,7 +30,8 @@ stroke: black
 <text font-size="large" text-anchor="middle" transform="translate(18,250) rotate(270)" fill="black">Internal Focus and Integration</text>
 <text font-size="large" text-anchor="middle" transform="translate(482,250) rotate(90)" fill="black">External Focus and Differentiation</text>
 
-
+<text x="250" y="625" text-anchor="middle" font-size="x-large" fill="black">Organizational Culture</text>
+<text x="250" y="650" text-anchor="middle" font-size="x-large" fill="black">Assessment Instrument</text>
 
 <!-- The Box Graph -->
 <line x1="250" y1="250" x2="450" y2="50" stroke="black" stroke-width="2" stroke-linecap="round"/>
