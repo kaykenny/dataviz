@@ -29,7 +29,9 @@ stroke: black
 <text x="250" y="495" font-size="large" text-anchor="middle" fill="black">Stability and Control</text>
 <text font-size="large" text-anchor="middle" transform="translate(18,250) rotate(270)" fill="black">Internal Focus and Integration</text>
 <text font-size="large" text-anchor="middle" transform="translate(482,250) rotate(90)" fill="black">External Focus and Differentiation</text>
-
+<text x="250" y="650" text-anchor="middle" font-size="x-large" fill="black">Organizational Culture</text>
+<text x="250" y="675" text-anchor="middle" font-size="x-large" fill="black">Assessment Instrument</text>
+<text x="250" y="700" text-anchor="middle" font-size="large" fill="black">(Individual Preferred State Perception)</text>
 
 
 <!-- The Box Graph -->
@@ -109,7 +111,7 @@ stroke: black
       stroke="#a4df92" fill="#a4df92" stroke-width="2" fill-opacity=".53"/>
 
 <!--Chris Now polygon-->
-  <polygon points="220 220 185 315 300 300 285 215"
+  <polygon points="210 210 215 287 315 315 315 185"
     stroke="#90b1df" fill="	#90b1df" stroke-width="2" fill-opacity=".5"/>
 
 <!--Kaylin Now polygon-->
